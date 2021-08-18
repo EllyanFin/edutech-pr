@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head> 
+        <meta charset="UTF-8">
+        <title>Daycontec</title>
+        <link rel="stylesheet" href="co2.css">
+    </head>
+
+    <body>
+
+                <h1 style="text-align: center">Faça seu login </h1>
+                <p text align="center"><img src="daycontec3.jpg"></p>
+        
+            <form class="caixa"> 
+                <label for="senha">Confirme  sua senha</label>
+                <input type="number" id="senha" required>
+            </form>    
+            <div class="caixa">
+                <nav>
+                    <ul>
+                        <li id="login"><a>Entrar!</a></li>
+                        <li><a href="login.html">Voltar!</a></li>
+                    </ul>
+                </nav>
+            </div>      
+            <a href="co11.html"></a>
+           <script>
+            
+            var senha = parseInt(prompt("definir uma senha"));
+            var input = document.querySelector("input");
+
+            function verifica(){
+                while(input.value!= senha){
+                        alert("senha incorreta!!!");
+                        input.value = null;
+                        break
+                    }
+                if(input.value == senha){
+                    alert("Você acertou!!!");
+                    window.location ="serviço.html"   
+                    }
+        
+                }
+            var button = document.querySelector("ul li");
+
+            button.onclick = verifica;
+            </script>      
+        </body>
+    </html>

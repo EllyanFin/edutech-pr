@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Contato - Daycontec Contabilidade</title> 
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="co.css">
+	</head>
+	<body>
+		<header>
+			<div class="caixa">
+				<h1><img src="daycontec.png" alt="logo da Daycontec Contabilidade"></h1>
+
+				<nav>
+					<ul>
+						<li><a href="serviço.html">Home</a></li>
+						<li><a href="sobre.html">sobre</a></li>
+						<li><a href="contatoday.html">Contatos</a></li>
+					</ul>
+			    </nav>
+			</div>
+		</header>
+
+		<main>
+			<form>
+				<label for="nomesobrenome">Nome e Sobrenome</label>
+				<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+				<label for="email">Email</label>
+				<input type="email" id="email" class="input-padrao" required placeholder="seuemail@domínio.com">
+
+				<label for="telefone">Telefone</label>
+				<input type="tel" id="telefone" class="input-padrao" required placeholder=" (XX) XXXXX-XXXX">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="90" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+				<fieldset>
+					<legend>Como prefere nosso contato?</legend>
+					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+
+					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+				</fieldset>
+
+					<fieldset>
+					    <legend>Qual horário prefere ser atendido?</legend>
+					    <select>
+					        <option>Manhã</option>
+					        <option>Tarde</option>
+					    </select>
+					</fieldset>
+
+				<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+				
+				<input type="submit" value="Enviar formulário" class="enviar">
+			</form>
+			<table>
+			    <thead>
+			        <tr>
+			            <th>Dia</th>
+			            <th>Horário</th>
+			        </tr>
+			    </thead>
+			    <tbody>
+			        <tr>
+			            <td>Segunda</td>
+			            <td>9h ~ 18:30h</td>
+			        </tr>
+			        <tr>
+			            <td>Terça</td>
+			            <td>9h ~ 18:30h</td>
+			        </tr>
+			        <tr>
+			            <td>Quarta</td>
+			            <td>9h ~ 18:30h</td>
+			        </tr>
+			        <tr>
+			            <td>Quinta</td>
+			            <td>9h ~ 18:30h</td>
+			        </tr>
+			        <tr>
+			            <td>Sexta</td>
+			            <td>9h ~ 18:30h</td>
+			        </tr>
+			    </tbody>
+			</table>
+		</main>
+
+		<footer>
+			<img src="daycontec10.png" alt="logo da Daycontec Contabilidade">
+			<p class="copyright">&copy; Copyright Daycontec Contabilidade- 2021</p>
+
+		</footer>
+	</body>
+</html> 

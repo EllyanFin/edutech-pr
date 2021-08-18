@@ -1,0 +1,204 @@
+#cor4{
+    padding: 50px;
+    background:#3E56AA ;
+}
+#cor3{
+    color: #68c1ff;
+}
+#cor2{
+    background:#3E56AA ;
+}
+#cor{
+    background:#3E56AA ;
+}
+#cor5{
+    color: #105284;
+    font-weight: bold;
+}
+header{
+    background: #FFFFFF;
+    padding: 20px 0;
+}
+.caixa{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+}
+form label{
+    text-align: left;
+    display: block;
+    font-size: 25px;
+    margin: 0 0 10px;
+    font-weight: bold;
+    margin-left: 280px;
+}
+form input{
+    display: block;
+    margin: 0 0 10px;
+    padding: 10px 25px;
+    width: 50%;
+    margin-left: 280px;
+}
+
+nav{
+    position: absolute;
+    top: 25px;
+    right:0 ;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #3E56AA;
+    text-decoration: underline;
+}
+.daycontec{
+   
+    text-align: left;
+    font-size: 23px;
+    margin-left: 300px;
+    margin-right:300px;
+    padding: 30px;
+}
+.itens{
+    color: white;
+    text-align: left;
+    margin-left: 300px;
+    margin-right: 600px;
+    font-size: 23px;
+    padding: 15px;
+}
+.soluçao{
+    color: black;
+    margin: 20px 300px;
+    font-size: 20px;  
+    padding: 10px;
+}
+#sobre{
+    margin-left: 200px;
+    padding-top: 100px;
+    padding:100px ;
+    font-weight: bold;
+}
+.sobre{
+    margin-left: 300px;
+    padding-top: 30px;
+}
+.Pessoal{
+    color: white;
+    text-align: left;
+    margin-left: 300px;
+    margin-right: 700px;
+    font-size: 23px;
+    padding: 15px;
+}
+#fiscal{
+    margin-left: 1000px;
+    margin-right: 200px;
+    text-align: left;
+    padding: 30px;
+    font-size: 23px;
+}
+.final{
+    margin-left: 300px;
+    padding: 30px;
+}
+p {
+
+    font-size: 20px;
+}
+footer{
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+strong{
+    color: #3E56AA;
+    font-weight: bold;
+}
+
+em strong {
+    color: #FFFFFF;
+}
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 10px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox{
+    margin: 20px 0;
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
+}
+
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.2);
+}
+#final{
+    color: white;
+    background: #1e73be;
+}
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #3E56AA);
+}
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+    margin-left: 600px;
+
+}
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+td ,th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
